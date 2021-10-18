@@ -13,6 +13,10 @@
         <div>
             <h1 style="color:red">Pet Meds Express</h1>
             <h6 style="color:black">Est. in 2021, aiming to aid the pet community and industry</h6>
+            <div style="display:flex;flex-direction:row;justify-content:space-around;width:25%;">
+                <a href="Default.aspx">Home</a>
+                <a href="Veterinarians.aspx">Veterinarians</a>
+            </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
