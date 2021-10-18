@@ -67,17 +67,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Customer Service.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Dispensing.aspx" />
     <Content Include="Veterinarians.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customer Service.aspx.cs">
+      <DependentUpon>Customer Service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer Service.aspx.designer.cs">
+      <DependentUpon>Customer Service.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dispensing.aspx.cs">
+      <DependentUpon>Dispensing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dispensing.aspx.designer.cs">
+      <DependentUpon>Dispensing.aspx</DependentUpon>
     </Compile>
     <Compile Include="PetMedMaster.Master.cs">
       <DependentUpon>PetMedMaster.Master</DependentUpon>
