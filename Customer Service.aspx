@@ -14,12 +14,12 @@
         <h5>Mark as completed and forwarded to the dispensing department</h5>
         <input type="checkbox" />
         <br /><br />
-        <input type="button" value="Vet Alerts"/>
+        <input type="button" value="Vet Alerts" class="btn btn-danger"/>
         <br /><br />
-        <textarea rows="5" cols="60"></textarea>
+        <textarea rows="5" cols="60" class="rounded"></textarea>
         <label>Chat with a dispensing dept. member</label>
     </div>
-    <input type="button" value="View Replacement Requests"/>
+    <input type="button" value="View Replacement Requests" class="btn btn-warning"/>
         <br />
-    <input type="button" value="View Completed Orders" />
+    <input type="button" value="View Completed Orders" class="btn btn-success"/>
 </asp:Content>
